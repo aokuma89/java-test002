@@ -19,7 +19,7 @@ public class Constructor_Book {
     
 //  mainメソッド
     public static void main(String[] args) {
-        Constructor_Book book = new Constructor_Book("吾輩は猫である", "夏目漱石");
+        Constructor_Book book = new Constructor_Book("源氏物語", "紫式部");
         book.displayInfo();
     }
 }

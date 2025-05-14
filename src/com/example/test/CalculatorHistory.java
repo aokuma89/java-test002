@@ -5,7 +5,7 @@ public class CalculatorHistory {
     private int historyIndex = 0;
 
     public void save(String calculation) {
-        if (historyIndex < 10) {
+        if (historyIndex < 11) {
             history[historyIndex++] = calculation;
         } else {
             System.arraycopy(history, 1, history, 0, 9);

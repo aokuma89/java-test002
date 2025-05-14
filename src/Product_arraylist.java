@@ -10,7 +10,7 @@ public class Product_arraylist {
     static {
         System.out.println("Product クラスが初期化されました");
     }
-
+    
     // デフォルト
     public Product_arraylist() {
         this.name = "商品名未設定";

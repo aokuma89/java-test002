@@ -9,6 +9,7 @@ public class ArrayList_Test {
 		fluits.add("りんご");
 		fluits.add("みかん");
 		fluits.add("バナナ");
+		fluits.add("レモン");
 		
 		fluits.add(0, "いちご");
 		

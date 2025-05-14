@@ -142,7 +142,7 @@ public class test3 {
 		
 		isprime(11);
 		
-		int[] nums = {4, 1, 2, 2, 2, 3, 3, 4, 4};
+		int[] nums = {4, 1, 2, 2, 2, 3, 1, 4, 4};
 		System.out.println(findMode(nums));
 		
 	}

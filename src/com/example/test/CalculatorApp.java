@@ -6,7 +6,7 @@ public class CalculatorApp {
         CalculatorHistory history = new CalculatorHistory();
 
         int resultAdd = calc.add(5, 3);
-        history.save("5 + 3 = " + resultAdd);
+        history.save("5 + 4 = " + resultAdd);
 
         int resultSub = calc.subtract(10, 4);
         history.save("10 - 4 = " + resultSub);

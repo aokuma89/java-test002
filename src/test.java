@@ -10,7 +10,7 @@ public class test {
 		int num2 = 6;
 		int num3 = num1*num2;
 		
-		System.out.println("縦幅" + num1 + "横幅" + num2 + "の長方形の面積は、" + num3);
+		System.out.println("縦" + num1 + "横" + num2 + "の長方形の面積は、" + num3);
 		
 		System.out.println(3+5*2);
 		

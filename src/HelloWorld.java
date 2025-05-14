@@ -5,7 +5,7 @@ public class HelloWorld {
 		// TODO 自動生成されたメソッド・スタブ
 		int num = -5;
 		
-		while(num < 16) {
+		while(num < 15) {
 			System.out.println("num = " + num);
 			num++;
 		}

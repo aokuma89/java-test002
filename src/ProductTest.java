@@ -8,7 +8,7 @@ public class ProductTest {
         private static int idCounter = 1;
 
         static {
-            System.out.println("Product クラスが初期化されました");
+            System.out.println("Productクラスが初期化されました");
         }
 
         public Product() {

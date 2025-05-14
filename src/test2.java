@@ -9,9 +9,9 @@ public class test2 {
 		int userNum = Integer.parseInt(new Scanner(System.in).nextLine());
 		
 		if (numList[0] == userNum || numList[1] == userNum || numList[2] == userNum) {
-			System.out.println("あたり");
+			System.out.println("あたりです");
 		} else { 
-			System.out.println("はずれ");
+			System.out.println("はずれです");
 		}
 		
 		System.out.println();

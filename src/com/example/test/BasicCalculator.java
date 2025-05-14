@@ -15,7 +15,7 @@ public class BasicCalculator {
 
     public double divide(int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("0で割ることはできません");
+            throw new IllegalArgumentException("0では割れません");
         }
         return (double) a / b;
     }
