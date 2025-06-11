@@ -19,7 +19,7 @@ setInterval(() => {
 document.addEventListener("DOMContentLoaded", () => {
   const textEl = document.getElementById("animated-text");
   const text = textEl.textContent;
-  textEl.textContent = ""; // 最初に空にする
+  textEl.textContent = ""; 
 
   let i = 0;
   const interval = setInterval(() => {

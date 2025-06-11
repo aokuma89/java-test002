@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WelcomeSpringController {
 
-	@GetMapping("/welcome")
+	@GetMapping("/")
 	public String welcome() {
 		// HTMLテンプレートに welcome-spring.html を指定
 		return "welcome-spring";
