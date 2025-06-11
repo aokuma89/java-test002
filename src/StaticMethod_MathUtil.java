@@ -6,7 +6,6 @@ public class StaticMethod_MathUtil {
 	}
 	
 	public static void main(String[] args) {
-		
 		System.out.println(StaticMethod_MathUtil.add(5, 6));
 	}
 }

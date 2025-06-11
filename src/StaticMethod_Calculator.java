@@ -28,12 +28,13 @@ public class StaticMethod_Calculator {
         }
     }
 	
+	
 	public static void main(String[] args) {
 		System.out.println("addメソッドの実行結果 " + StaticMethod_Calculator.add(5, 6));
 		System.out.println("subtractメソッドの実行結果 " + StaticMethod_Calculator.subtract(7, 5));
 		System.out.println("multiplyメソッドの実行結果 " + StaticMethod_Calculator.multiply(5, 5));
 		System.out.println("divideメソッドの実行結果 " + StaticMethod_Calculator.divide(10, 2));
 		System.out.println("maxメソッドの実行結果 " + StaticMethod_Calculator.max(5, 6));
-		System.out.println("divideメソッドの実行結果(0での除算) " + StaticMethod_Calculator.divide(10, 0));
+		System.out.println("divideメソッドの実行結果 " + StaticMethod_Calculator.divide(10, 0)); //0での除算
 	}
 }
